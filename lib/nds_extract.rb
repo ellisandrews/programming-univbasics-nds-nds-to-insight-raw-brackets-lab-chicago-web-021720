@@ -32,7 +32,7 @@ def directors_totals(nds)
   
   index = 0
   while index < nds.length do
-    
+    has[:]
   end
   
 
