@@ -41,7 +41,7 @@ def directors_totals(nds)
     movies_index = 0
     while movies_index < dir_movies_list.length do
       
-      hash[dir_name] += dir_movies_list[movies_index][:]
+      hash[dir_name] += dir_movies_list[movies_index][:worldwide_gross]
       
       movies_index += 1
     end
