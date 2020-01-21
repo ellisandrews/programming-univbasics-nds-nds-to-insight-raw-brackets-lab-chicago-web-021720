@@ -18,15 +18,6 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-
-  # pp nds
-  
-#   hash = {
-#   "1st Director's Name"=>1234567890,
-#   "2nd Director's Name"=>1234577890,
-#   "3rd Director's Name"=>1234709136,
-#   ...
-# }
   
   hash = {}
   
