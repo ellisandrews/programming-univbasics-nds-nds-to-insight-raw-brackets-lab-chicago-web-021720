@@ -32,7 +32,12 @@ def directors_totals(nds)
   
   index = 0
   while index < nds.length do
-    hash[nds[index][:name]] =    # Director's name
+    
+    dir_name = nds[index][:name]  
+    hash[dir_name] = 0   # Initialize Director name key
+    
+    
+    
     
   end
   
