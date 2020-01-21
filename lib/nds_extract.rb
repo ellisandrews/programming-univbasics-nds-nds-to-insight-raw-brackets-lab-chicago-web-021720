@@ -36,8 +36,18 @@ def directors_totals(nds)
     dir_name = nds[index][:name]  
     hash[dir_name] = 0   # Initialize Director name key
     
+    dir_movies_list = nds[index][:movies]
+    
+    movies_index = 0
+    while movies_index < dir_movies_list.length do
+      
+      hash[dir_name] += dir_movies_list[movies_index][:]
+      
+      movies_index += 1
+    end
     
     
+    index += 1
     
   end
   
